@@ -48,6 +48,20 @@ nav a {
     color: white;
 }
 
+.downd-cont button {
+    margin-right: 30px;
+}
+
+.btn-contact {
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 1px #FD6E0A solid;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    background-color: transparent;
+}
+
 .header {
     background-color: #FFF8F3;
     background-image: url(/images/header_bg.png);
@@ -204,6 +218,45 @@ main section {
     text-align: center;
     margin-top: 20px;
 }
-.resume-column-title hr{
+
+.resume-column-title hr {
     margin: 30px;
+}
+
+/* Footer Style */
+footer {
+    background: #FFF8F3;
+    margin-top: 113px;
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-column {
+    width: 50%;
+}
+.social-sign {
+    display: flex;
+    margin-top: 30px;
+    gap: 24px;
+}
+.footer-descriptio {
+    font-size: 16px;
+    color: #474747;
+    font-size: 16px;
+}
+.contact-info,
+input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    color: #757575;
+    border: none;
+    width: 100%;
+}
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
 }
