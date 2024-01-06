@@ -33,6 +33,7 @@ nav a {
 }
 
 .nav-anchor {
+    display: flex;
     font-size: 20px;
     font-weight: 400;
 }
@@ -146,6 +147,7 @@ main section {
 .whatido {
     margin: 30px 230px;
 }
+
 /* skill section style */
 .skill-container {
     display: flex;
@@ -162,12 +164,46 @@ main section {
 .skill-description {
     color: #757575;
 }
+
 /* Resume section style */
 .resume-column-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
+    gap: 70px;
+    margin: 70px 277px 0px 230px;
+}
+
+.resume-tile {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+
+.resume-sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+.resume-column-title hr{
+    margin: 30px;
 }
